@@ -1,0 +1,103 @@
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+    min-height: 100vh;
+  }
+  
+  main {
+    background-color: rgb(189, 182, 182);
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 90%;
+    margin: 0 auto;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+header{
+    width: 28rem;
+    text-align: center;
+    margin: 0 auto;
+}
+header h2{
+    background-color: rgb(98, 98, 245);
+    padding: 1px;
+    color: rgb(14, 7, 7);
+}
+header h1{
+    font-size: 2.8rem;
+    text-align-last: center;
+    background-color: rgb(208, 208, 221);
+    padding: 50px;
+}
+.Imgcap{
+    text-align: center;
+}
+.Imgcap h3{
+    font-size: 2rem;
+    font-style: italic;
+}
+img{ 
+    width: 32rem;
+    height: 36rem;
+    display:block;
+    margin: 0 auto;
+    border-left: 10px solid orangered;
+    border-bottom: 10px solid orangered;;
+    border-radius: 3px;
+}
+.chrono-list{
+   width: 90%;
+   margin:0 auto;
+}
+blockquote{
+    border: midnightblue 5px solid;
+    margin: 0 auto;
+}
+.chrono-list h2{
+    text-align: left;
+    margin-left: 30px;
+}
+ul li{
+    list-style:square;
+    padding: 10px;
+}
+aside{
+    width: 500px;
+    margin: 0 auto;
+    font-size: 3rem;
+    background-color: rgb(223, 221, 221);
+    padding: 0px;
+    border-radius: 3px;
+    font-style: italic;
+    text-align: center;
+}
+footer{
+    background-color: orange;
+    border: 5px red solid;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 15px auto;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(12, 11, 11);
+}
+.Toplist{
+    position: relative;
+
+}
+.Quote{
+    position: absolute;
+    top: 1250px;
+    right: 300px;
+    color: rgb(228, 225, 225);
+    background-size: contain;
+    background-image:url(./download.jpeg);
+    background-repeat: no-repeat;
+    background-size: 500px 381px;
+}
